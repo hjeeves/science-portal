@@ -139,7 +139,7 @@
 
               _selfPortalCore.sessionServiceURL = {
                 'base': serviceURL,
-                'session': serviceURL + '/session',
+                'session': serviceURL + '/session?type=notebook',
                 'context': serviceURL + '/context',
                 'images': serviceURL + '/image'
               }
